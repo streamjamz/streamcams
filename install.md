@@ -31,7 +31,7 @@ For a very simple method on how to deploy VDO.Ninja, there's a detailed video gu
 
 Most users might find the Github Pages deployment option easiest and quickest. 
 
-### Deplying to a NGINX web server
+### Deploying to a NGINX web server
 
 For advanced users, NGINX might be more appropriate than using Github Pages, so find written directions below. There's also a community-created video tutorial on setting up on AWS + Nginx here; https://youtu.be/8sDMwBIlgwE, but it's not an official install guide.
 
@@ -85,7 +85,7 @@ To keep things easy, Steve generally recommends using Cloudflare to provide cach
 
 `sudo systemctl reload nginx` will reload the settings after making changes.
 
-At this point, if you've managed to make it this far, you should have VDO.Ninja's web code hosted and accessible via yuor domain name.
+At this point, if you've managed to make it this far, you should have VDO.Ninja's web code hosted and accessible via your domain name.
 
 You can find many settings for VDO.Ninja at the bottom of the `index.html` file, including settings for specifiying TURN servers and default values.
 
